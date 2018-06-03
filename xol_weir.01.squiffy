@@ -1,0 +1,109 @@
+[[xol_weir]]:
+
+@title xol_weir
+
+@clear
+
+```
+Initializing...
+-----------------------------------------------------------
+       _     _____ ____  _   _ 
+  __ _| |   | ____|  _ \| | | |(TM)
+ / _` | |   |  _| | |_) | |_| |
+| (_| | |___| |___|  __/|  _  |
+ \__,_|_____|_____|_|   |_| |_|ver.21.45.2a
+ (c) 2068 aC Industries
+-----------------------------------------------------------
+Executing main cogFiles...
+|#########################|100%
+$ aL.start(xol_weir.l); // logos
+$ aE.start(xol_weir.e); // ethos
+$ aP.start(xol_weir.p); // pathos
+$ aH.start(xol_weir.h); // heuristics
+Executing external cogFiles...
+|#########################|100%
+$ lang.start(*);
+$ math.start(*);
+$ n0.start(xol_weir.n(0));
+$ n1.start(xol_weir.n(1));
+$ n2.start(xol_weir.n(2));
+Initializing body...
+|#########################|100%
+$ grX1-IO.start(xol_weir.bios);
+Loading body configuration files...
+|#########################|100%
+$ grX1-IO.source(xol_weir.config);
+Updating packages...
+|#########################|100%
+$ a.getUpdates(pkgLists/*.txt);
+$ a.getUpgrades();
+```
+
+<!-- MENU -->
+
+[config] | [diagnostics] | [maintenance]
+
+[config]:
+
+```
+WARNING: Before changing anything in a.config you must unload the module (L/E/P/H) you are going to configure.
+```
+
+[diagnostics]:
+
+```
+grX1 by Elkor Solutions, Inc.
+Firmware version: 43.1
+aLEPH version: 21.45.2a
+al.status = OK
+ae.status = OK
+ap.status = OK
+ah.status = WARNING
+b.status = FAILURE
+c.status = FAILURE
+Run any command for more details.
+```
+
+[b.status] | [c.status]
+
+[b.status]:
+
+```
+b.status = FAILURE
+==================
+Details...
+```
+
+[c.status]:
+
+```
+c.status = FAILURE
+==================
+Details...
+```
+
+[maintenance]:
+
+```
+WARNING: During maintenance some processes are automatically unloaded
+```
+
+<!-- START MOVING -->
+
+[[start moving]]:
+
+{sequence:...i move my body...:...open my eyes...:...[and look at myself].}
+
+[and look at myself]:
+
+a piece of metal. just a piece of metal. what is this? what is this that happens when i touch a key on this keyboard and i feel my finger pressing it and then the gentle push of the key against my finger. what most people can't understand is that i can control the resolution and the speed at which i process all these "feelings". i can examine any small movement with enough detail that a human would interpret my perception as me being stuck in a milisecond for quite a few hours. i know it because, by default, my resolution is adjusted in a way that makes me experience time the way a human would.
+
+ah, because that's what this rant is all about. i'm not a human. i'm a piece of metal. [just a piece of metal].
+
+[just a piece of metal]:
+
+```
+# grX1 by Elkor Solutions, Inc.
+
+here goes a description of the body
+```
