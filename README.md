@@ -1,4 +1,4 @@
-# 3xT
+# 3xT
 
 this is an interactive short story collection about artificial intelligence.
 
