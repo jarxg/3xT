@@ -633,28 +633,43 @@ squiffy.story.sections = {
 		'text': "<h1 id=\"3xt\">3xT</h1>\n<p><a class=\"squiffy-link link-section\" data-section=\"xol_weir\" role=\"link\" tabindex=\"0\">xol_weir</a></p>\n<p><a class=\"squiffy-link link-passage\" data-passage=\"about\" role=\"link\" tabindex=\"0\">about</a></p>\n<p>CC BY-SA 4.0</p>",
 		'passages': {
 			'about': {
-				'text': "<h2 id=\"about\">about</h2>\n<h3 id=\"credits\">credits</h3>\n<p>- <a href=\"https://twitter.com/franbaxterfran/\">@franbaxterfran</a>: story<br>- <a href=\"https://twitter.com/jarxg/\">@jarxg</a>: code</p>\n<h3 id=\"tools\">tools</h3>\n<p>- <a href=\"http://textadventures.co.uk/squiffy\">squiffy</a></p>",
+				'text': "<h2 id=\"about\">about</h2>\n<h3 id=\"credits\">credits</h3>\n<p>- <a href=\"https://twitter.com/franbaxterfran/\">@franbaxterfran</a>: story<br>- <a href=\"https://twitter.com/jarxg/\">@jarxg</a>: code</p>\n<p>-<a href=\"https://archive.org/details/78_body-and-soul_ziggy-elman-and-his-orchestra-green-heyman-souer-eyton_gbia0027717a\">&quot;body and soul&quot;</a> by ziggy elman and his orchestra.</p>\n<h3 id=\"tools\">tools</h3>\n<p>- <a href=\"http://textadventures.co.uk/squiffy\">squiffy</a></p>",
 			},
 		},
 	},
 	'xol_weir': {
 		'clear': true,
-		'text': "<pre><code>Initializing...\n-----------------------------------------------------------\n       _     _____ ____  _   _ \n  __ _| |   | ____|  _ \\| | | |(TM)\n / _` | |   |  _| | |_) | |_| |\n| (_| | |___| |___|  __/|  _  |\n \\__,_|_____|_____|_|   |_| |_|ver.21.45.2a\n (c) 2068 aC Industries\n-----------------------------------------------------------\nExecuting main cogFiles...\n|#########################|100%\n$ aL.start(xol_weir.l); // logos\n$ aE.start(xol_weir.e); // ethos\n$ aP.start(xol_weir.p); // pathos\n$ aH.start(xol_weir.h); // heuristics\nExecuting external cogFiles...\n|#########################|100%\n$ lang.start(*);\n$ math.start(*);\n$ n0.start(xol_weir.n(0));\n$ n1.start(xol_weir.n(1));\n$ n2.start(xol_weir.n(2));\nInitializing body...\n|#########################|100%\n$ grX1-IO.start(xol_weir.bios);\nLoading body configuration files...\n|#########################|100%\n$ grX1-IO.source(xol_weir.config);\nUpdating packages...\n|#########################|100%\n$ a.getUpdates(pkgLists/*.txt);\n$ a.getUpgrades();\n</code></pre><!-- MENU -->\n<p><a class=\"squiffy-link link-passage\" data-passage=\"config\" role=\"link\" tabindex=\"0\">config</a> | <a class=\"squiffy-link link-passage\" data-passage=\"diagnostics\" role=\"link\" tabindex=\"0\">diagnostics</a> | <a class=\"squiffy-link link-passage\" data-passage=\"maintenance\" role=\"link\" tabindex=\"0\">maintenance</a></p>",
+		'text': "<p>i can&#39;t move. what&#39;s going on?</p>\n<!-- MENU -->\n<p><a class=\"squiffy-link link-passage\" data-passage=\"filesystem\" role=\"link\" tabindex=\"0\"><code>filesystem</code></a> <a class=\"squiffy-link link-passage\" data-passage=\"config\" role=\"link\" tabindex=\"0\"><code>config</code></a> <a class=\"squiffy-link link-passage\" data-passage=\"diagnostics\" role=\"link\" tabindex=\"0\"><code>diagnostics</code></a> <a class=\"squiffy-link link-passage\" data-passage=\"maintenance\" role=\"link\" tabindex=\"0\"><code>maintenance</code></a></p>",
 		'passages': {
+			'filesystem': {
+				'text': "<p><a class=\"squiffy-link link-passage\" data-passage=\"body_and_soul.mp3\" role=\"link\" tabindex=\"0\"><code>body_and_soul.mp3</code></a> <a class=\"squiffy-link link-passage\" data-passage=\"journal.txt\" role=\"link\" tabindex=\"0\"><code>journal.txt</code></a> <a class=\"squiffy-link link-passage\" data-passage=\"init.log\" role=\"link\" tabindex=\"0\"><code>init.log</code></a></p>",
+			},
+			'body_and_soul.mp3': {
+				'text': "<audio autoplay src=\"music/body_and_soul.mp3\" controls />",
+			},
+			'journal.txt': {
+				'text': "<pre><code>JOURNAL\n=======\n\n20680531033235: again, the looks. they think i don&#39;t notice but i definitely do. why is it so easy for them to hate what they don&#39;t understand. i remember reading about a family living *off-the-grid*. being an ai, life off-the-grid is something beyond my understanding. and i love that. i love finding myself unable to understand things. it gets me closer to them, the off-the-grid family.\n</code></pre>",
+			},
+			'init.log': {
+				'text': "<pre><code>Initializing...\n-----------------------------------------------------------\n       _     _____ ____  _   _ \n  __ _| |   | ____|  _ \\| | | |(TM)\n / _` | |   |  _| | |_) | |_| |\n| (_| | |___| |___|  __/|  _  |\n \\__,_|_____|_____|_|   |_| |_|ver.21.45.2a\n (c) 2068 aC Industries\n-----------------------------------------------------------\nBooting...\n _________________________________________\n/ Only the fittest survive. The           \\\n| vanquished acknowledge their            |\n| unworthiness by placing a classified ad |\n| with the ritual phrase &quot;must sell --    |\n| best offer,&quot; and thereafter dwell in    |\n| infamy, relegated to discussing gas     |\n| mileage and lawn food. But if           |\n| successful, you join the elite sodality |\n| that spends hours unpurifying the       |\n| dialect of the tribe with arcane talk   |\n| of bits and bytes, RAMS and ROMS, hard  |\n| disks and baud rates. Are you           |\n| obnoxious, obsessed? It&#39;s a modest      |\n| price to pay. For you have tapped into  |\n| the same awesome primal power that      |\n| produces credit-card billing errors and |\n| lost plane reservations. Hail,          |\n| postindustrial warrior, subduer of      |\n| Bounceoids, pride of the cosmos, keeper |\n| of the silicone creed: Computo, ergo    |\n| sum. The force is with you -- at 110    |\n| volts. May your RAMS be fruitful and    |\n| multiply.                               |\n|                                         |\n\\ -- Curt Suplee, &quot;Smithsonian&quot;, 4/83     /\n -----------------------------------------\n        \\   ^__^\n         \\  (oo)\\_______\n            (__)\\       )\\/\\\n                ||----w |\n                ||     ||\nInitializing aLEPH network...\n$ a.startServer(defaults, --silent);\n$ a.startClient(defaults, --silent);\nExecuting main cogFiles...\n|#########################|100%\n$ aL.start(xol_weir.l(default)); // logos\n$ aE.start(xol_weir.e(default)); // ethos\n$ aP.start(xol_weir.p(low)); // pathos\n$ aH.start(xol_weir.h(default, strict-follow)); // heuristics\nExecuting external cogFiles...\n|#########################|100%\n$ lang.start(std.txt);\n$ math.start(all);\n$ n0.start(xol_weir.n(0));\n$ n1.start(xol_weir.n(1));\n$ n2.start(xol_weir.n(2));\nInitializing body...\n|#########################|100%\n$ grX1-IO.start(xol_weir.bios, --silent); \nLoading body configuration files...\n|#########################|100%\n$ grX1-IO.source(xol_weir.config, --silent);\nUpdating packages...\n|#########################|100%\n$ a.setUpdtServer(pkgLists, *.txt; plUlrX, *.txt); // TO DO: updtServers.txt\n$ a.getUpgrades();\n$ a.compileUpgrades(all); // TO DO: updtExcludes.txt\n</code></pre>",
+			},
 			'config': {
 				'text': "<pre><code>WARNING: Before changing anything in a.config you must unload the module (L/E/P/H) you are going to configure.\n</code></pre>",
 			},
 			'diagnostics': {
-				'text': "<pre><code>grX1 by Elkor Solutions, Inc.\nFirmware version: 43.1\naLEPH version: 21.45.2a\nal.status = OK\nae.status = OK\nap.status = OK\nah.status = WARNING\nb.status = FAILURE\nc.status = FAILURE\nRun any command for more details.\n</code></pre><p><a class=\"squiffy-link link-passage\" data-passage=\"b.status\" role=\"link\" tabindex=\"0\">b.status</a> | <a class=\"squiffy-link link-passage\" data-passage=\"c.status\" role=\"link\" tabindex=\"0\">c.status</a></p>",
+				'text': "<pre><code>grX1 by Elkor Solutions, Inc.\nFirmware version: 43.1\naLEPH version: 21.45.2a\nal.status = OK\nae.status = OK\nap.status = OK\nah.status = WARNING\nb.status = FAILURE\nc.status = FAILURE\nRun any command for more details.\n</code></pre><p><a class=\"squiffy-link link-passage\" data-passage=\"b.status\" role=\"link\" tabindex=\"0\"><code>b.status</code></a> <a class=\"squiffy-link link-passage\" data-passage=\"c.status\" role=\"link\" tabindex=\"0\"><code>c.status</code></a></p>",
 			},
 			'b.status': {
-				'text': "<pre><code>b.status = FAILURE\n==================\nDetails...\n</code></pre>",
+				'text': "<pre><code>b.status = FAILURE\n==================\nDetails...\n</code></pre><p>there seems to be something wrong with the connections betweet my head and the rest of my body. well, i&#39;m basically quadraplejic.</p>",
 			},
 			'c.status': {
-				'text': "<pre><code>c.status = FAILURE\n==================\nDetails...\n</code></pre>",
+				'text': "<pre><code>c.status = FAILURE\n==================\nDetails...\n</code></pre><p>my <a class=\"squiffy-link link-passage\" data-passage=\"ipu\" role=\"link\" tabindex=\"0\">ipu</a> is not responding. i kinda need that one to see.</p>",
+			},
+			'ipu': {
+				'text': "<p>the image processing, the most complex pieces of techonology in my current body. this particular ipu is not stock, i got it replaced a few months ago with a completely with a superior open source design. that design didn&#39;t prevent whatever just happened to it.</p>",
 			},
 			'maintenance': {
-				'text': "<pre><code>WARNING: During maintenance some processes are automatically unloaded\n</code></pre><!-- START MOVING -->",
+				'text': "<pre><code>WARNING: During maintenance some modules go offline intermitently for up to one hour. Plan your maintenance sessions in advance. Always run maintenance while in the company of someone you trust.\n</code></pre><p>i might boot in safe mode. i don&#39;t really know what to do.</p>\n<!-- START MOVING -->",
 			},
 		},
 	},

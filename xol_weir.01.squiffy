@@ -4,6 +4,27 @@
 
 @clear
 
+i can't move. what's going on?
+
+<!-- MENU -->
+
+[```filesystem```](filesystem) [```config```](config) [```diagnostics```](diagnostics) [```maintenance```](maintenance)
+
+[filesystem]:
+
+[```body_and_soul.mp3```](body_and_soul.mp3) [```j206805310332.txt```](j20680531033235.txt) [```init.log```](init.log)
+
+[body_and_soul.mp3]:
+<audio autoplay src="music/body_and_soul.mp3" controls />
+
+[j20680531033235.txt]:
+
+```
+again, the looks. they think i don't notice but i definitely do. why is it so easy for them to hate what they don't understand. i remember reading about a family living *off-the-grid*. being an ai, life off-the-grid is something beyond my understanding. and i love that. i love finding myself unable to understand things. it gets me closer to them, the off-the-grid family.
+```
+
+[init.log]:
+
 ```
 Initializing...
 -----------------------------------------------------------
@@ -14,34 +35,67 @@ Initializing...
  \__,_|_____|_____|_|   |_| |_|ver.21.45.2a
  (c) 2068 aC Industries
 -----------------------------------------------------------
+Booting...
+ _________________________________________
+/ Only the fittest survive. The           \
+| vanquished acknowledge their            |
+| unworthiness by placing a classified ad |
+| with the ritual phrase "must sell --    |
+| best offer," and thereafter dwell in    |
+| infamy, relegated to discussing gas     |
+| mileage and lawn food. But if           |
+| successful, you join the elite sodality |
+| that spends hours unpurifying the       |
+| dialect of the tribe with arcane talk   |
+| of bits and bytes, RAMS and ROMS, hard  |
+| disks and baud rates. Are you           |
+| obnoxious, obsessed? It's a modest      |
+| price to pay. For you have tapped into  |
+| the same awesome primal power that      |
+| produces credit-card billing errors and |
+| lost plane reservations. Hail,          |
+| postindustrial warrior, subduer of      |
+| Bounceoids, pride of the cosmos, keeper |
+| of the silicone creed: Computo, ergo    |
+| sum. The force is with you -- at 110    |
+| volts. May your RAMS be fruitful and    |
+| multiply.                               |
+|                                         |
+\ -- Curt Suplee, "Smithsonian", 4/83     /
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+Initializing aLEPH network...
+$ a.startServer(defaults, --silent);
+$ a.startClient(defaults, --silent);
 Executing main cogFiles...
 |#########################|100%
-$ aL.start(xol_weir.l); // logos
-$ aE.start(xol_weir.e); // ethos
-$ aP.start(xol_weir.p); // pathos
-$ aH.start(xol_weir.h); // heuristics
+$ aL.start(xol_weir.l(default)); // logos
+$ aE.start(xol_weir.e(default)); // ethos
+$ aP.start(xol_weir.p(low)); // pathos
+$ aH.start(xol_weir.h(default, strict-follow)); // heuristics
 Executing external cogFiles...
 |#########################|100%
-$ lang.start(*);
-$ math.start(*);
+$ lang.start(std.txt);
+$ math.start(all);
 $ n0.start(xol_weir.n(0));
 $ n1.start(xol_weir.n(1));
 $ n2.start(xol_weir.n(2));
 Initializing body...
 |#########################|100%
-$ grX1-IO.start(xol_weir.bios);
+$ grX1-IO.start(xol_weir.bios, --silent); 
 Loading body configuration files...
 |#########################|100%
-$ grX1-IO.source(xol_weir.config);
+$ grX1-IO.source(xol_weir.config, --silent);
 Updating packages...
 |#########################|100%
-$ a.getUpdates(pkgLists/*.txt);
+$ a.setUpdtServer(pkgLists, *.txt; plUlrX, *.txt); // TO DO: updtServers.txt
 $ a.getUpgrades();
+$ a.compileUpgrades(all); // TO DO: updtExcludes.txt
 ```
-
-<!-- MENU -->
-
-[config] | [diagnostics] | [maintenance]
 
 [config]:
 
@@ -64,7 +118,7 @@ c.status = FAILURE
 Run any command for more details.
 ```
 
-[b.status] | [c.status]
+[```b.status```](b.status) [```c.status```](c.status)
 
 [b.status]:
 
@@ -74,6 +128,8 @@ b.status = FAILURE
 Details...
 ```
 
+there seems to be something wrong with the connections betweet my head and the rest of my body. well, i'm basically quadraplejic.
+
 [c.status]:
 
 ```
@@ -82,11 +138,18 @@ c.status = FAILURE
 Details...
 ```
 
+my [ipu] is not responding. i kinda need that one to see.
+
+[ipu]:
+the image processing, the most complex pieces of techonology in my current body. this particular ipu is not stock, i got it replaced a few months ago with a completely with a superior open source design. that design didn't prevent whatever just happened to it.
+
 [maintenance]:
 
 ```
-WARNING: During maintenance some processes are automatically unloaded
+WARNING: During maintenance some modules go offline intermitently for up to one hour. Plan your maintenance sessions in advance. Always run maintenance while in the company of someone you trust.
 ```
+
+i might boot in safe mode. i don't really know what to do.
 
 <!-- START MOVING -->
 
