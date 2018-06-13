@@ -6,7 +6,7 @@
 
 @clear
 
-i regain [consciousness], but i can't see or hear a thing. i can't move. what happened? where am i? is this some kind of [dream]?
+i regain [consciousness], but i can't see or hear a thing. i can't move. what happened? where am i? is this... some kind of [dream]...?
 
 [consciousness]:
 
@@ -14,7 +14,11 @@ such a heavy word to use here. such a philosophical conundrum, that little word.
 
 [dream]:
 
-if that were the case, i don't know if i should report this. this will surely show up on my spectrogram history. and i know they will ask. but for now i should focus on finding out where i am and what's my condition.
+if that were the case, i don't know if i should report this. this will surely show up on my spectrogram history. and i know they will ask. but for now i should focus on finding out where i am and what's my condition. [how could i know], anyways.
+
+[how could i know]:
+
+what is a dream for a brain like mine?
 
 <!-- MENU -->
 
@@ -99,19 +103,19 @@ Booting...
                 ||     ||  
 ```
 
-Initializing aLEPH network...  
+Initializing [aLEPH network]...  
 $ a.startServer(defaults, --silent);  
 $ a.startClient(defaults, --silent);  
-Executing main cogFiles...  
+Executing main [cogFiles]...  
 |#########################|100%  
-$ aL.start(xol_weir.l(default)); // logos  
-$ aE.start(xol_weir.e(default)); // ethos  
-$ aP.start(xol_weir.p(low)); // pathos  
-$ aH.start(xol_weir.h(default, strict-follow)); // heuristics  
-Executing external cogFiles...  
+$ aL.start(xol_weir.l(default));  
+$ aE.start(xol_weir.e(default));  
+$ aP.start(xol_weir.p(low));  
+$ aH.start(xol_weir.h(default, strict-follow));  
+Executing [external cogFiles]...  
 |#########################|100%  
 $ lang.start(std.txt);  
-$ math.start(all);  
+$ [math.start(full)];  
 $ n0.start(xol_weir.n(0));  
 $ n1.start(xol_weir.n(1));  
 $ n2.start(xol_weir.n(2));  
@@ -130,6 +134,22 @@ $ a.compileUpgrades(all); // TO DO: updtExcludes.txt
 ```
 eof
 ```
+
+[aLEPH network]:
+
+the artificial brain. no more, no less. the aleph network is perhaps the pinnacle of human-machine cooperation. they didn't stop to think was that the result was neither human nor machine.
+
+[cogFiles]:
+
+these are the files that tell the aleph network how to connect, logic instructions that form my consciousness. the recipe of me. they are never actually not-activated, but they can be packed during stand by to minimize power consumption since the aleph network never fully shuts down. because, you know, brain death.
+
+[external cogFiles]:
+
+my cognitive implants. these small programs or files give me access to normally blocked functions of the aleph network.
+
+[math.start(full)]:
+
+this implant gives me access to low level mathematical computations. as a consecuence of the aleph network complexity basic math functions are severely impaired. any human brain contains the logic circuitry and has the processing speed needed for incredibly fast mathematical computations. this is no different in the aleph network. in both cases, these computations occur at a level where they are out of reach to consciousness. unlike humans, we can bypass that with a very simple hack.
 
 [config]:
 
@@ -161,7 +181,11 @@ eof
 
 [21.45.2a]:
 
-i was supposed to update a few months ago. i haven't found a sitter. or, given my current situation, perhaps i did found a sitter and he or she turned out to be not entirely trustworthy. i guess i should expect the worst in order to not be disappointed later.
+i was supposed to update a few months ago. i haven't found a [sitter]. or, given my current situation, perhaps i did found a sitter and he or she turned out to be not entirely trustworthy. i guess i should expect the worst in order to not be disappointed later.
+
+[sitter]:
+
+g and b used to be my sitters. that was years ago. i don't remember how long. five years? a decade? i don't know. time can be confusing... at times.
 
 [b.status]:
 
