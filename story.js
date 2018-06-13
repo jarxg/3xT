@@ -644,7 +644,7 @@ squiffy.story.sections = {
 	},
 	'xol_weir': {
 		'clear': true,
-		'text': "<p>i regain <a class=\"squiffy-link link-passage\" data-passage=\"consciousness\" role=\"link\" tabindex=\"0\">consciousness</a>, but i can&#39;t see or hear a thing. i can&#39;t move. what happened? where am i? is this... some kind of <a class=\"squiffy-link link-passage\" data-passage=\"dream\" role=\"link\" tabindex=\"0\">dream</a>...?</p>",
+		'text': "<p>i regain <a class=\"squiffy-link link-passage\" data-passage=\"consciousness\" role=\"link\" tabindex=\"0\">consciousness</a>, but i can&#39;t see or hear a thing. i can&#39;t move. what happened? where am i? is this... some kind of <a class=\"squiffy-link link-passage\" data-passage=\"dream\" role=\"link\" tabindex=\"0\">dream</a>...?</p>\n<!-- MENU -->\n<p><a class=\"squiffy-link link-passage\" data-passage=\"filesystem\" role=\"link\" tabindex=\"0\">filesystem</a> <a class=\"squiffy-link link-passage\" data-passage=\"config\" role=\"link\" tabindex=\"0\">config</a> <a class=\"squiffy-link link-passage\" data-passage=\"diagnostics\" role=\"link\" tabindex=\"0\">diagnostics</a> <a class=\"squiffy-link link-passage\" data-passage=\"maintenance\" role=\"link\" tabindex=\"0\">maintenance</a></p>",
 		'passages': {
 			'consciousness': {
 				'text': "<p>such a heavy word to use here. such a philosophical conundrum, that little word.</p>",
@@ -653,7 +653,7 @@ squiffy.story.sections = {
 				'text': "<p>if that were the case, i don&#39;t know if i should report this. this will surely show up on my spectrogram history. and i know they will ask. but for now i should focus on finding out where i am and what&#39;s my condition. <a class=\"squiffy-link link-passage\" data-passage=\"how could i know\" role=\"link\" tabindex=\"0\">how could i know</a>, anyways.</p>",
 			},
 			'how could i know': {
-				'text': "<p>what is a dream for a brain like mine?</p>\n<!-- MENU -->\n<p><a class=\"squiffy-link link-passage\" data-passage=\"filesystem\" role=\"link\" tabindex=\"0\">filesystem</a> <a class=\"squiffy-link link-passage\" data-passage=\"config\" role=\"link\" tabindex=\"0\">config</a> <a class=\"squiffy-link link-passage\" data-passage=\"diagnostics\" role=\"link\" tabindex=\"0\">diagnostics</a> <a class=\"squiffy-link link-passage\" data-passage=\"maintenance\" role=\"link\" tabindex=\"0\">maintenance</a></p>",
+				'text': "<p>what is a dream for a brain like mine?</p>",
 			},
 			'filesystem': {
 				'text': "<p><a class=\"squiffy-link link-passage\" data-passage=\"body_and_soul.mp3\" role=\"link\" tabindex=\"0\">body_and_soul.mp3</a> <a class=\"squiffy-link link-passage\" data-passage=\"journal.txt\" role=\"link\" tabindex=\"0\">journal.txt</a> <a class=\"squiffy-link link-passage\" data-passage=\"init.log\" role=\"link\" tabindex=\"0\">init.log</a></p>",
