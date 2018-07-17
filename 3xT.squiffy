@@ -1,18 +1,21 @@
-[[3xT]]:
+[[start]]:
 
 @title 3xT
-
-@clear
-
+@start start
 @import xol_weir.01.squiffy
 
-# 3xT
+```
+ _____     _____
+|___ /_  _|_   _|
+  |_ \ \/ / | |
+ ___) >  <  | |
+|____/_/\_\ |_|
+
+```
 
 [[xol_weir]]
 
 [about]
-
-CC BY-SA 4.0
 
 [about]:
 
@@ -20,11 +23,16 @@ CC BY-SA 4.0
 
 ### credits
 
-\- [@franbaxterfran](https://twitter.com/franbaxterfran/): story  
-\- [@jarxg](https://twitter.com/jarxg/): code
+[@jarxg](https://twitter.com/jarxg/): story & code  
 
-\-["body and soul"](https://archive.org/details/78_body-and-soul_ziggy-elman-and-his-orchestra-green-heyman-souer-eyton_gbia0027717a) by ziggy elman and his orchestra.
+### assets
+
+["body and soul"](https://archive.org/details/78_body-and-soul_ziggy-elman-and-his-orchestra-green-heyman-souer-eyton_gbia0027717a) by ziggy elman and his orchestra.
 
 ### tools
 
-\- [squiffy](http://textadventures.co.uk/squiffy)
+[squiffy](http://textadventures.co.uk/squiffy)
+
+### license
+
+[cc zero](https://creativecommons.org/publicdomain/zero/1.0/)

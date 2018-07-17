@@ -1,16 +1,78 @@
-[[]]:
-
 [[xol_weir]]:
 
 @title xol_weir
+@clear
+
+```
+           _                _
+__  _____ | | __      _____(_)_ __
+\ \/ / _ \| | \ \ /\ / / _ \ | '__|
+ >  < (_) | |  \ V  V /  __/ | |
+/_/\_\___/|_|___\_/\_/ \___|_|_|
+           |_____|
+```
+
+[[start]](xol_start)
+
+NOTE: WORK IN PROGRESS
+
+[[xol_start]]:
 
 @clear
 
+<audio autoplay src="music/ambience.mp3" loop />
+
+```
+-----------------------------------------------------------
+       _     _____ ____  _   _
+  __ _| |   | ____|  _ \| | | |(TM)
+ / _` | |   |  _| | |_) | |_| |
+| (_| | |___| |___|  __/|  _  |
+ \__,_|_____|_____|_|   |_| |_|ver.21.45.2a
+ (c) 2068 aC Industries
+-----------------------------------------------------------
+```
+
++++> Booting...
+
++++> Initializing aLEPH network...  
+> $ a.startServer(defaults, --silent);  
+> $ a.startClient(defaults, --silent);  
+
++++> Executing main cogFiles...  
+> $ aL.start(xol_weir.l(default));  
+> $ aE.start(xol_weir.e(default));  
+> $ aP.start(xol_weir.p(low));  
+> $ aH.start(xol_weir.h(default, strict-follow));  
+
++++> Executing external cogFiles...  
+> $ lang.start(std.txt);  
+> $ math.start(full);  
+> $ n0.start(xol_weir.n(0));  
+> $ n1.start(xol_weir.n(1));  
+> $ n2.start(xol_weir.n(2));  
+
++++> Initializing body...  
+> $ grX1-IO.start(xol_weir.bios, --silent);  
+
++++> Loading body configuration files...  
+> $ grX1-IO.source(xol_weir.config, --silent);  
+
++++> Updating packages...  
+> $ a.setUpdtServer(pkgLists, \*.txt; plUlrX, \*.txt); // TO DO: updtServers.tx
+  
+> $ a.getUpgrades();  
+> $ a.compileUpgrades(all); // TO DO: updtExcludes.txt  
+
+\> [[Init]] routine completed...
+
+[[Init]]:
+
+<audio autoplay src="music/start.mp3" />
+
 i regain [consciousness], but i can't see or hear a thing. i can't move. what happened? where am i? is this... some kind of [dream]...?
 
-<!-- MENU -->
-
-[filesystem] [config] [diagnostics] [maintenance]
+> [[main menu]] [shutdown]
 
 [consciousness]:
 
@@ -24,120 +86,99 @@ if that were the case, i don't know if i should report this. this will surely sh
 
 what is a dream for a brain like mine?
 
+[shutdown]:
+
+why would i do that? i'm not sure i can boot again...
+
+([[shutdown anyway]]...)
+
+[[shutdown anyway]]:
+
+@clear
+
+> the end.
+
+[[main menu]]:
+
+```
+###################
+# aLEPH main menu #
+###################
+```
+
+> Select an option below:
+
+> [filesystem] [config] [diagnostics] [maintenance]
+
+damn, this ui is rustic. ok, let's see what i can do...
+
 [filesystem]:
 
-[body_and_soul.mp3] [journal.txt] [init.log]
+> [body_and_soul.mp3] [journal] [log.init]
 
 [body_and_soul.mp3]:
+
+> # body_and_soul.mp3
+
+> Playing...
+
 <audio autoplay src="music/body_and_soul.mp3" controls />
 
-[journal.txt]:
+i like this song. it reminds me of georgina abernathy and her daughter beatriz. georgina used to play it every evening after dinner at her home. we went to georgina's studio and she played this record on a really old turntable. beatriz usually worked on something in her computer while georgina painted. i liked to read georgina's books. she had all the classics, most of them old early 20th century editions. i devoured them.
 
-```
-journal.txt
-```
+[journal]:
 
-# 2068-07-21-11-05
-the other day i visited a real life sized chess board, each cell about a square meter. since i can sense information size as a literal space, i wanted to make some comparisons. i imagined each cell being a megabyte in my brain, and then imagined my brain as a vast chessboard, endless in all directions. except inwards, perhaps.
+> ## journal
 
-# 2068-05-31;03:32:35
-the worst part of being a singular is that you are born a celebrity and you are never to met your peers. safety reasons. why is it so easy for them to hate what they don't understand. i remember reading about a family living *off-the-grid*. being an ai, life [off-the-grid] is something beyond my understanding. and i love that. i love finding myself unable to understand things. it gets me closer to them, the off-the-grid family.
+> [2068-05-31] [2068-06-21]
 
-```
-eof
-```
+my digital journal. i usually prefer writing longhand but every once in a while i write inside.
+
+[2068-05-31]:
+
+> ## 2068-05-31;03:32:35
+
+> the worst part of being a singular is that you are born a celebrity and you are never to met your peers. safety reasons. why is it so easy for them to hate what they don't understand. i remember reading about a family living *off-the-grid*. being an ai, life [off-the-grid] is something beyond my understanding. and i love that. i love finding myself unable to understand things. it gets me closer to them, the off-the-grid family.
 
 [off-the-grid]:
 
 i could definitely go off-the-grid some time.
 
-[init.log]:
+[2068-06-21]:
 
-```
-ìnit.log
-```
+> ## 2068-07-21;23:05:44
 
-Initializing...
+> the other day i visited a real life sized chess board, each cell about a square meter. since i can sense information size as a literal space, i wanted to make some comparisons. i imagined each cell being a megabyte in my brain, and then imagined my brain as a vast chessboard, endless in all directions. except inwards, perhaps.
 
-```
------------------------------------------------------------
-       _     _____ ____  _   _
-  __ _| |   | ____|  _ \| | | |(TM)
- / _` | |   |  _| | |_) | |_| |
-| (_| | |___| |___|  __/|  _  |
- \__,_|_____|_____|_|   |_| |_|ver.21.45.2a
- (c) 2068 aC Industries
------------------------------------------------------------
-Booting...
- _________________________________________
-/ Only the fittest survive. The           \
-| vanquished acknowledge their            |
-| unworthiness by placing a classified ad |
-| with the ritual phrase "must sell --    |
-| best offer," and thereafter dwell in    |
-| infamy, relegated to discussing gas     |
-| mileage and lawn food. But if           |
-| successful, you join the elite sodality |
-| that spends hours unpurifying the       |
-| dialect of the tribe with arcane talk   |
-| of bits and bytes, RAMS and ROMS, hard  |
-| disks and baud rates. Are you           |
-| obnoxious, obsessed? It's a modest      |
-| price to pay. For you have tapped into  |
-| the same awesome primal power that      |
-| produces credit-card billing errors and |
-| lost plane reservations. Hail,          |
-| postindustrial warrior, subduer of      |
-| Bounceoids, pride of the cosmos, keeper |
-| of the silicone creed: Computo, ergo    |
-| sum. The force is with you -- at 110    |
-| volts. May your RAMS be fruitful and    |
-| multiply.                               |
-|                                         |
-\ -- Curt Suplee, "Smithsonian", 4/83     /
- -----------------------------------------
-        \   ^__^  
-         \  (oo)\_______  
-            (__)\       )\/\  
-                ||----w |  
-                ||     ||  
-```
+[log.init]:
 
-Initializing [aLEPH network]...  
-$ a.startServer(defaults, --silent);  
-$ a.startClient(defaults, --silent);  
-Executing main [cogFiles]...  
-|#########################|100%  
-$ aL.start(xol_weir.l(default));  
-$ aE.start(xol_weir.e(default));  
-$ aP.start(xol_weir.p(low));  
-$ aH.start(xol_weir.h(default, strict-follow));  
-Executing [external cogFiles]...  
-|#########################|100%  
-$ lang.start(std.txt);  
-$ [math.start(full)];  
-$ n0.start(xol_weir.n(0));  
-$ n1.start(xol_weir.n(1));  
-$ n2.start(xol_weir.n(2));  
-Initializing body...  
-|#########################|100%  
-$ grX1-IO.start(xol_weir.bios, --silent);  
-Loading body configuration files...  
-|#########################|100%  
-$ grX1-IO.source(xol_weir.config, --silent);  
-Updating packages...  
-|#########################|100%  
-$ a.setUpdtServer(pkgLists, *.txt; plUlrX, *.txt); // TO DO: updtServers.txt  
-$ a.getUpgrades();  
-$ a.compileUpgrades(all); // TO DO: updtExcludes.txt  
-
-```
-eof
-```
+> \> Booting...  
+> \> Initializing [aLEPH network]...  
+> $ a.startServer(defaults, --silent);  
+> $ a.startClient(defaults, --silent);  
+> \> Executing main [cogFiles]...  
+> $ aL.start(xol_weir.l(default));  
+> $ aE.start(xol_weir.e(default));  
+> $ aP.start(xol_weir.p(low));  
+> $ aH.start(xol_weir.h(default, strict-follow));  
+> \> Executing [external cogFiles]...  
+> $ lang.start(std.txt);  
+> $ [math.start(full)];  
+> $ n0.start(xol_weir.n(0));  
+> $ n1.start(xol_weir.n(1));  
+> $ n2.start(xol_weir.n(2));  
+> \> Initializing body...  
+> $ grX1-IO.start(xol_weir.bios, --silent);  
+> \> Loading body configuration files...  
+> $ grX1-IO.source(xol_weir.config, --silent);  
+> \> Updating packages...  
+> $ a.setUpdtServer(pkgLists, \*.txt; plUlrX, \*.txt); // TO DO: updtServers.txt  
+> $ a.getUpgrades();  
+> $ a.compileUpgrades(all); // TO DO: updtExcludes.txt  
 
 [aLEPH network]:
 
-the artificial brain. no more, no less. the aleph network is perhaps the pinnacle of human-machine cooperation. they didn't stop to think was that the result was neither human nor machine.
+the artificial brain. no more, no less. the aleph network is perhaps the pinnacle of human-machine cooperation. they didn't stop to think that the result was neither human nor machine and that this obvious fact would cause a huge ethic debate. not to mention existential dread on many of us.
 
 [cogFiles]:
 
@@ -145,7 +186,11 @@ these are the files that tell the aleph network how to connect, logic instructio
 
 [external cogFiles]:
 
-my cognitive implants. these small programs or files give me access to normally blocked functions of the aleph network.
+my [cognitive implants]. these small programs or files give me access to normally blocked functions of the aleph network.
+
+[cognitive implants]:
+
+i got most of these working for humans who wanted their wetware repaired or modified. half of these jobs were dubiously legal so the pay was good.
 
 [math.start(full)]:
 
@@ -159,25 +204,27 @@ WARNING: Before changing anything in a.config you must unload the module (L/E/P/
 
 [diagnostics]:
 
-```
-diagnostics
-```
+> ## diagnostics
 
-grX1 by Elkor Solutions, Inc.  
-Firmware version: 43.1  
-aLEPH version: [21.45.2a]  
-al.status = OK  
-ae.status = OK  
-ap.status = OK  
-ah.status = WARNING  
-[b.status] = FAILURE  
-[c.status] = FAILURE  
-[l.status] = HARDBLOCKED // WARNING!  
-Run any command for more details.  
+> [grX1] by [Elkor] Solutions, Inc.  
+> Firmware version: 43.1  
+> aLEPH version: [21.45.2a]  
+> al.status = OK  
+> ae.status = OK  
+> ap.status = OK  
+> ah.status = WARNING  
+> [b.status] = FAILURE  
+> [c.status] = FAILURE  
+> [l.status] = HARDBLOCKED // WARNING!  
+> Run any command for more details.  
 
-```
-eof
-```
+[grX1]:
+
+not the best or most capable body but a reliable one.
+
+[Elkor]:
+
+beatriz used to work at elkor solutions, the ai division of elcorp. she got me this body.
 
 [21.45.2a]:
 
@@ -185,15 +232,27 @@ i was supposed to update a few months ago. i haven't found a [sitter]. or, given
 
 [sitter]:
 
-g and b used to be my sitters. that was years ago. i don't remember how long. five years? a decade? i don't know. time can be confusing... at times.
+georgina and beatriz used to be my sitters. that was years ago. i don't remember how long. five years? a decade? i don't know. time can be confusing... at times.
 
 [b.status]:
 
-```
-b.status
-```
+> b.status = FAILURE
 
 there seems to be something wrong with the connections betweet my head and the rest of my body. well, i'm basically quadraplejic.
+
+> [b.details] [b.restart]
+
+[b.details]:
+
+> Connection not established.
+
+that's weird.
+
+[b.restart]:
+
+> Connection not established.
+
+well, i'll have to find a workaround.
 
 [c.status]:
 

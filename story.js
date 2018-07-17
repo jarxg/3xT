@@ -625,26 +625,66 @@ var get = squiffy.get;
 var set = squiffy.set;
 
 
-squiffy.story.start = '3xT';
+squiffy.story.start = 'start';
 squiffy.story.id = '09465d3a34';
 squiffy.story.sections = {
-	'3xT': {
-		'clear': true,
-		'text': "<h1 id=\"3xt\">3xT</h1>\n<p><a class=\"squiffy-link link-section\" data-section=\"xol_weir\" role=\"link\" tabindex=\"0\">xol_weir</a></p>\n<p><a class=\"squiffy-link link-passage\" data-passage=\"about\" role=\"link\" tabindex=\"0\">about</a></p>\n<p>CC BY-SA 4.0</p>",
+	'start': {
+		'text': "<pre><code> _____     _____\n|___ /_  _|_   _|\n  |_ \\ \\/ / | |\n ___) &gt;  &lt;  | |\n|____/_/\\_\\ |_|\n\n</code></pre><p><a class=\"squiffy-link link-section\" data-section=\"xol_weir\" role=\"link\" tabindex=\"0\">xol_weir</a></p>\n<p><a class=\"squiffy-link link-passage\" data-passage=\"about\" role=\"link\" tabindex=\"0\">about</a></p>",
 		'passages': {
 			'about': {
-				'text': "<h2 id=\"about\">about</h2>\n<h3 id=\"credits\">credits</h3>\n<p>- <a href=\"https://twitter.com/franbaxterfran/\">@franbaxterfran</a>: story<br>- <a href=\"https://twitter.com/jarxg/\">@jarxg</a>: code</p>\n<p>-<a href=\"https://archive.org/details/78_body-and-soul_ziggy-elman-and-his-orchestra-green-heyman-souer-eyton_gbia0027717a\">&quot;body and soul&quot;</a> by ziggy elman and his orchestra.</p>\n<h3 id=\"tools\">tools</h3>\n<p>- <a href=\"http://textadventures.co.uk/squiffy\">squiffy</a></p>",
+				'text': "<h2 id=\"about\">about</h2>\n<h3 id=\"credits\">credits</h3>\n<p><a href=\"https://twitter.com/jarxg/\">@jarxg</a>: story &amp; code  </p>\n<h3 id=\"assets\">assets</h3>\n<p><a href=\"https://archive.org/details/78_body-and-soul_ziggy-elman-and-his-orchestra-green-heyman-souer-eyton_gbia0027717a\">&quot;body and soul&quot;</a> by ziggy elman and his orchestra.</p>\n<h3 id=\"tools\">tools</h3>\n<p><a href=\"http://textadventures.co.uk/squiffy\">squiffy</a></p>\n<h3 id=\"license\">license</h3>\n<p><a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">cc zero</a></p>",
 			},
-		},
-	},
-	'': {
-		'text': "",
-		'passages': {
 		},
 	},
 	'xol_weir': {
 		'clear': true,
-		'text': "<p>i regain <a class=\"squiffy-link link-passage\" data-passage=\"consciousness\" role=\"link\" tabindex=\"0\">consciousness</a>, but i can&#39;t see or hear a thing. i can&#39;t move. what happened? where am i? is this... some kind of <a class=\"squiffy-link link-passage\" data-passage=\"dream\" role=\"link\" tabindex=\"0\">dream</a>...?</p>\n<!-- MENU -->\n<p><a class=\"squiffy-link link-passage\" data-passage=\"filesystem\" role=\"link\" tabindex=\"0\">filesystem</a> <a class=\"squiffy-link link-passage\" data-passage=\"config\" role=\"link\" tabindex=\"0\">config</a> <a class=\"squiffy-link link-passage\" data-passage=\"diagnostics\" role=\"link\" tabindex=\"0\">diagnostics</a> <a class=\"squiffy-link link-passage\" data-passage=\"maintenance\" role=\"link\" tabindex=\"0\">maintenance</a></p>",
+		'text': "<pre><code>           _                _\n__  _____ | | __      _____(_)_ __\n\\ \\/ / _ \\| | \\ \\ /\\ / / _ \\ | &#39;__|\n &gt;  &lt; (_) | |  \\ V  V /  __/ | |\n/_/\\_\\___/|_|___\\_/\\_/ \\___|_|_|\n           |_____|\n</code></pre><p><a class=\"squiffy-link link-section\" data-section=\"xol_start\" role=\"link\" tabindex=\"0\">start</a></p>",
+		'passages': {
+		},
+	},
+	'xol_start': {
+		'clear': true,
+		'text': "<audio autoplay src=\"music/ambience.mp3\" loop />\n\n<pre><code>-----------------------------------------------------------\n       _     _____ ____  _   _\n  __ _| |   | ____|  _ \\| | | |(TM)\n / _` | |   |  _| | |_) | |_| |\n| (_| | |___| |___|  __/|  _  |\n \\__,_|_____|_____|_|   |_| |_|ver.21.45.2a\n (c) 2068 aC Industries\n-----------------------------------------------------------\n</code></pre><p><a class=\"squiffy-link link-section\" data-section=\"_continue1\" role=\"link\" tabindex=\"0\">&gt; Booting...</a></p>",
+		'passages': {
+		},
+	},
+	'_continue1': {
+		'text': "<p><a class=\"squiffy-link link-section\" data-section=\"_continue2\" role=\"link\" tabindex=\"0\">&gt; Initializing aLEPH network...</a></p>",
+		'passages': {
+		},
+	},
+	'_continue2': {
+		'text': "<blockquote>\n<p>$ a.startServer(defaults, --silent);<br>$ a.startClient(defaults, --silent);  </p>\n</blockquote>\n<p><a class=\"squiffy-link link-section\" data-section=\"_continue3\" role=\"link\" tabindex=\"0\">&gt; Executing main cogFiles...</a></p>",
+		'passages': {
+		},
+	},
+	'_continue3': {
+		'text': "<blockquote>\n<p>$ aL.start(xol_weir.l(default));<br>$ aE.start(xol_weir.e(default));<br>$ aP.start(xol_weir.p(low));<br>$ aH.start(xol_weir.h(default, strict-follow));  </p>\n</blockquote>\n<p><a class=\"squiffy-link link-section\" data-section=\"_continue4\" role=\"link\" tabindex=\"0\">&gt; Executing external cogFiles...</a></p>",
+		'passages': {
+		},
+	},
+	'_continue4': {
+		'text': "<blockquote>\n<p>$ lang.start(std.txt);<br>$ math.start(full);<br>$ n0.start(xol_weir.n(0));<br>$ n1.start(xol_weir.n(1));<br>$ n2.start(xol_weir.n(2));  </p>\n</blockquote>\n<p><a class=\"squiffy-link link-section\" data-section=\"_continue5\" role=\"link\" tabindex=\"0\">&gt; Initializing body...</a></p>",
+		'passages': {
+		},
+	},
+	'_continue5': {
+		'text': "<blockquote>\n<p>$ grX1-IO.start(xol_weir.bios, --silent);  </p>\n</blockquote>\n<p><a class=\"squiffy-link link-section\" data-section=\"_continue6\" role=\"link\" tabindex=\"0\">&gt; Loading body configuration files...</a></p>",
+		'passages': {
+		},
+	},
+	'_continue6': {
+		'text': "<blockquote>\n<p>$ grX1-IO.source(xol_weir.config, --silent);  </p>\n</blockquote>\n<p><a class=\"squiffy-link link-section\" data-section=\"_continue7\" role=\"link\" tabindex=\"0\">&gt; Updating packages...</a></p>",
+		'passages': {
+		},
+	},
+	'_continue7': {
+		'text': "<blockquote>\n<p>$ a.setUpdtServer(pkgLists, *.txt; plUlrX, *.txt); // TO DO: updtServers.tx</p>\n</blockquote>\n<blockquote>\n<p>$ a.getUpgrades();<br>$ a.compileUpgrades(all); // TO DO: updtExcludes.txt  </p>\n</blockquote>\n<p>> <a class=\"squiffy-link link-section\" data-section=\"Init\" role=\"link\" tabindex=\"0\">Init</a> routine completed...</p>",
+		'passages': {
+		},
+	},
+	'Init': {
+		'text': "<audio autoplay src=\"music/start.mp3\" />\n\n<p>i regain <a class=\"squiffy-link link-passage\" data-passage=\"consciousness\" role=\"link\" tabindex=\"0\">consciousness</a>, but i can&#39;t see or hear a thing. i can&#39;t move. what happened? where am i? is this... some kind of <a class=\"squiffy-link link-passage\" data-passage=\"dream\" role=\"link\" tabindex=\"0\">dream</a>...?</p>\n<blockquote>\n<p><a class=\"squiffy-link link-section\" data-section=\"main menu\" role=\"link\" tabindex=\"0\">main menu</a> <a class=\"squiffy-link link-passage\" data-passage=\"shutdown\" role=\"link\" tabindex=\"0\">shutdown</a></p>\n</blockquote>",
 		'passages': {
 			'consciousness': {
 				'text': "<p>such a heavy word to use here. such a philosophical conundrum, that little word.</p>",
@@ -655,29 +695,52 @@ squiffy.story.sections = {
 			'how could i know': {
 				'text': "<p>what is a dream for a brain like mine?</p>",
 			},
+			'shutdown': {
+				'text': "<p>why would i do that? i&#39;m not sure i can boot again...</p>\n<p>(<a class=\"squiffy-link link-section\" data-section=\"shutdown anyway\" role=\"link\" tabindex=\"0\">shutdown anyway</a>...)</p>",
+			},
+		},
+	},
+	'shutdown anyway': {
+		'clear': true,
+		'text': "<blockquote>\n<p>the end.</p>\n</blockquote>",
+		'passages': {
+		},
+	},
+	'main menu': {
+		'text': "<pre><code>###################\n# aLEPH main menu #\n###################\n</code></pre><blockquote>\n<p>Select an option below:</p>\n</blockquote>\n<blockquote>\n<p><a class=\"squiffy-link link-passage\" data-passage=\"filesystem\" role=\"link\" tabindex=\"0\">filesystem</a> <a class=\"squiffy-link link-passage\" data-passage=\"config\" role=\"link\" tabindex=\"0\">config</a> <a class=\"squiffy-link link-passage\" data-passage=\"diagnostics\" role=\"link\" tabindex=\"0\">diagnostics</a> <a class=\"squiffy-link link-passage\" data-passage=\"maintenance\" role=\"link\" tabindex=\"0\">maintenance</a></p>\n</blockquote>\n<p>damn, this ui is rustic. ok, let&#39;s see what i can do...</p>",
+		'passages': {
 			'filesystem': {
-				'text': "<p><a class=\"squiffy-link link-passage\" data-passage=\"body_and_soul.mp3\" role=\"link\" tabindex=\"0\">body_and_soul.mp3</a> <a class=\"squiffy-link link-passage\" data-passage=\"journal.txt\" role=\"link\" tabindex=\"0\">journal.txt</a> <a class=\"squiffy-link link-passage\" data-passage=\"init.log\" role=\"link\" tabindex=\"0\">init.log</a></p>",
+				'text': "<blockquote>\n<p><a class=\"squiffy-link link-passage\" data-passage=\"body_and_soul.mp3\" role=\"link\" tabindex=\"0\">body_and_soul.mp3</a> <a class=\"squiffy-link link-passage\" data-passage=\"journal\" role=\"link\" tabindex=\"0\">journal</a> <a class=\"squiffy-link link-passage\" data-passage=\"log.init\" role=\"link\" tabindex=\"0\">log.init</a></p>\n</blockquote>",
 			},
 			'body_and_soul.mp3': {
-				'text': "<audio autoplay src=\"music/body_and_soul.mp3\" controls />",
+				'text': "<blockquote>\n<h1 id=\"body_and_soul-mp3\">body_and_soul.mp3</h1>\n</blockquote>\n<blockquote>\n<p>Playing...</p>\n</blockquote>\n<audio autoplay src=\"music/body_and_soul.mp3\" controls />\n\n<p>i like this song. it reminds me of georgina abernathy and her daughter beatriz. georgina used to play it every evening after dinner at her home. we went to georgina&#39;s studio and she played this record on a really old turntable. beatriz usually worked on something in her computer while georgina painted. i liked to read georgina&#39;s books. she had all the classics, most of them old early 20th century editions. i devoured them.</p>",
 			},
-			'journal.txt': {
-				'text': "<pre><code>journal.txt\n</code></pre><h1 id=\"2068-07-21-11-05\">2068-07-21-11-05</h1>\n<p>the other day i visited a real life sized chess board, each cell about a square meter. since i can sense information size as a literal space, i wanted to make some comparisons. i imagined each cell being a megabyte in my brain, and then imagined my brain as a vast chessboard, endless in all directions. except inwards, perhaps.</p>\n<h1 id=\"2068-05-31-03-32-35\">2068-05-31;03:32:35</h1>\n<p>the worst part of being a singular is that you are born a celebrity and you are never to met your peers. safety reasons. why is it so easy for them to hate what they don&#39;t understand. i remember reading about a family living <em>off-the-grid</em>. being an ai, life <a class=\"squiffy-link link-passage\" data-passage=\"off-the-grid\" role=\"link\" tabindex=\"0\">off-the-grid</a> is something beyond my understanding. and i love that. i love finding myself unable to understand things. it gets me closer to them, the off-the-grid family.</p>\n<pre><code>eof\n</code></pre>",
+			'journal': {
+				'text': "<blockquote>\n<h2 id=\"journal\">journal</h2>\n</blockquote>\n<blockquote>\n<p><a class=\"squiffy-link link-passage\" data-passage=\"2068-05-31\" role=\"link\" tabindex=\"0\">2068-05-31</a> <a class=\"squiffy-link link-passage\" data-passage=\"2068-06-21\" role=\"link\" tabindex=\"0\">2068-06-21</a></p>\n</blockquote>\n<p>my digital journal. i usually prefer writing longhand but every once in a while i write inside.</p>",
+			},
+			'2068-05-31': {
+				'text': "<blockquote>\n<h2 id=\"2068-05-31-03-32-35\">2068-05-31;03:32:35</h2>\n</blockquote>\n<blockquote>\n<p>the worst part of being a singular is that you are born a celebrity and you are never to met your peers. safety reasons. why is it so easy for them to hate what they don&#39;t understand. i remember reading about a family living <em>off-the-grid</em>. being an ai, life <a class=\"squiffy-link link-passage\" data-passage=\"off-the-grid\" role=\"link\" tabindex=\"0\">off-the-grid</a> is something beyond my understanding. and i love that. i love finding myself unable to understand things. it gets me closer to them, the off-the-grid family.</p>\n</blockquote>",
 			},
 			'off-the-grid': {
 				'text': "<p>i could definitely go off-the-grid some time.</p>",
 			},
-			'init.log': {
-				'text': "<pre><code>ìnit.log\n</code></pre><p>Initializing...</p>\n<pre><code>-----------------------------------------------------------\n       _     _____ ____  _   _\n  __ _| |   | ____|  _ \\| | | |(TM)\n / _` | |   |  _| | |_) | |_| |\n| (_| | |___| |___|  __/|  _  |\n \\__,_|_____|_____|_|   |_| |_|ver.21.45.2a\n (c) 2068 aC Industries\n-----------------------------------------------------------\nBooting...\n _________________________________________\n/ Only the fittest survive. The           \\\n| vanquished acknowledge their            |\n| unworthiness by placing a classified ad |\n| with the ritual phrase &quot;must sell --    |\n| best offer,&quot; and thereafter dwell in    |\n| infamy, relegated to discussing gas     |\n| mileage and lawn food. But if           |\n| successful, you join the elite sodality |\n| that spends hours unpurifying the       |\n| dialect of the tribe with arcane talk   |\n| of bits and bytes, RAMS and ROMS, hard  |\n| disks and baud rates. Are you           |\n| obnoxious, obsessed? It&#39;s a modest      |\n| price to pay. For you have tapped into  |\n| the same awesome primal power that      |\n| produces credit-card billing errors and |\n| lost plane reservations. Hail,          |\n| postindustrial warrior, subduer of      |\n| Bounceoids, pride of the cosmos, keeper |\n| of the silicone creed: Computo, ergo    |\n| sum. The force is with you -- at 110    |\n| volts. May your RAMS be fruitful and    |\n| multiply.                               |\n|                                         |\n\\ -- Curt Suplee, &quot;Smithsonian&quot;, 4/83     /\n -----------------------------------------\n        \\   ^__^  \n         \\  (oo)\\_______  \n            (__)\\       )\\/\\  \n                ||----w |  \n                ||     ||  \n</code></pre><p>Initializing <a class=\"squiffy-link link-passage\" data-passage=\"aLEPH network\" role=\"link\" tabindex=\"0\">aLEPH network</a>...<br>$ a.startServer(defaults, --silent);<br>$ a.startClient(defaults, --silent);<br>Executing main <a class=\"squiffy-link link-passage\" data-passage=\"cogFiles\" role=\"link\" tabindex=\"0\">cogFiles</a>...<br>|#########################|100%<br>$ aL.start(xol_weir.l(default));<br>$ aE.start(xol_weir.e(default));<br>$ aP.start(xol_weir.p(low));<br>$ aH.start(xol_weir.h(default, strict-follow));<br>Executing <a class=\"squiffy-link link-passage\" data-passage=\"external cogFiles\" role=\"link\" tabindex=\"0\">external cogFiles</a>...<br>|#########################|100%<br>$ lang.start(std.txt);<br>$ <a class=\"squiffy-link link-passage\" data-passage=\"math.start(full)\" role=\"link\" tabindex=\"0\">math.start(full)</a>;<br>$ n0.start(xol_weir.n(0));<br>$ n1.start(xol_weir.n(1));<br>$ n2.start(xol_weir.n(2));<br>Initializing body...<br>|#########################|100%<br>$ grX1-IO.start(xol_weir.bios, --silent);<br>Loading body configuration files...<br>|#########################|100%<br>$ grX1-IO.source(xol_weir.config, --silent);<br>Updating packages...<br>|#########################|100%<br>$ a.setUpdtServer(pkgLists, <em>.txt; plUlrX, </em>.txt); // TO DO: updtServers.txt<br>$ a.getUpgrades();<br>$ a.compileUpgrades(all); // TO DO: updtExcludes.txt  </p>\n<pre><code>eof\n</code></pre>",
+			'2068-06-21': {
+				'text': "<blockquote>\n<h2 id=\"2068-07-21-23-05-44\">2068-07-21;23:05:44</h2>\n</blockquote>\n<blockquote>\n<p>the other day i visited a real life sized chess board, each cell about a square meter. since i can sense information size as a literal space, i wanted to make some comparisons. i imagined each cell being a megabyte in my brain, and then imagined my brain as a vast chessboard, endless in all directions. except inwards, perhaps.</p>\n</blockquote>",
+			},
+			'log.init': {
+				'text': "<blockquote>\n<p>> Booting...<br>> Initializing <a class=\"squiffy-link link-passage\" data-passage=\"aLEPH network\" role=\"link\" tabindex=\"0\">aLEPH network</a>...<br>$ a.startServer(defaults, --silent);<br>$ a.startClient(defaults, --silent);<br>> Executing main <a class=\"squiffy-link link-passage\" data-passage=\"cogFiles\" role=\"link\" tabindex=\"0\">cogFiles</a>...<br>$ aL.start(xol_weir.l(default));<br>$ aE.start(xol_weir.e(default));<br>$ aP.start(xol_weir.p(low));<br>$ aH.start(xol_weir.h(default, strict-follow));<br>> Executing <a class=\"squiffy-link link-passage\" data-passage=\"external cogFiles\" role=\"link\" tabindex=\"0\">external cogFiles</a>...<br>$ lang.start(std.txt);<br>$ <a class=\"squiffy-link link-passage\" data-passage=\"math.start(full)\" role=\"link\" tabindex=\"0\">math.start(full)</a>;<br>$ n0.start(xol_weir.n(0));<br>$ n1.start(xol_weir.n(1));<br>$ n2.start(xol_weir.n(2));<br>> Initializing body...<br>$ grX1-IO.start(xol_weir.bios, --silent);<br>> Loading body configuration files...<br>$ grX1-IO.source(xol_weir.config, --silent);<br>> Updating packages...<br>$ a.setUpdtServer(pkgLists, *.txt; plUlrX, *.txt); // TO DO: updtServers.txt<br>$ a.getUpgrades();<br>$ a.compileUpgrades(all); // TO DO: updtExcludes.txt  </p>\n</blockquote>",
 			},
 			'aLEPH network': {
-				'text': "<p>the artificial brain. no more, no less. the aleph network is perhaps the pinnacle of human-machine cooperation. they didn&#39;t stop to think was that the result was neither human nor machine.</p>",
+				'text': "<p>the artificial brain. no more, no less. the aleph network is perhaps the pinnacle of human-machine cooperation. they didn&#39;t stop to think that the result was neither human nor machine and that this obvious fact would cause a huge ethic debate. not to mention existential dread on many of us.</p>",
 			},
 			'cogFiles': {
 				'text': "<p>these are the files that tell the aleph network how to connect, logic instructions that form my consciousness. the recipe of me. they are never actually not-activated, but they can be packed during stand by to minimize power consumption since the aleph network never fully shuts down. because, you know, brain death.</p>",
 			},
 			'external cogFiles': {
-				'text': "<p>my cognitive implants. these small programs or files give me access to normally blocked functions of the aleph network.</p>",
+				'text': "<p>my <a class=\"squiffy-link link-passage\" data-passage=\"cognitive implants\" role=\"link\" tabindex=\"0\">cognitive implants</a>. these small programs or files give me access to normally blocked functions of the aleph network.</p>",
+			},
+			'cognitive implants': {
+				'text': "<p>i got most of these working for humans who wanted their wetware repaired or modified. half of these jobs were dubiously legal so the pay was good.</p>",
 			},
 			'math.start(full)': {
 				'text': "<p>this implant gives me access to low level mathematical computations. as a consecuence of the aleph network complexity basic math functions are severely impaired. any human brain contains the logic circuitry and has the processing speed needed for incredibly fast mathematical computations. this is no different in the aleph network. in both cases, these computations occur at a level where they are out of reach to consciousness. unlike humans, we can bypass that with a very simple hack.</p>",
@@ -686,16 +749,28 @@ squiffy.story.sections = {
 				'text': "<pre><code>WARNING: Before changing anything in a.config you must unload the module (L/E/P/H) you are going to configure.\n</code></pre>",
 			},
 			'diagnostics': {
-				'text': "<pre><code>diagnostics\n</code></pre><p>grX1 by Elkor Solutions, Inc.<br>Firmware version: 43.1<br>aLEPH version: <a class=\"squiffy-link link-passage\" data-passage=\"21.45.2a\" role=\"link\" tabindex=\"0\">21.45.2a</a><br>al.status = OK<br>ae.status = OK<br>ap.status = OK<br>ah.status = WARNING<br><a class=\"squiffy-link link-passage\" data-passage=\"b.status\" role=\"link\" tabindex=\"0\">b.status</a> = FAILURE<br><a class=\"squiffy-link link-passage\" data-passage=\"c.status\" role=\"link\" tabindex=\"0\">c.status</a> = FAILURE<br><a class=\"squiffy-link link-passage\" data-passage=\"l.status\" role=\"link\" tabindex=\"0\">l.status</a> = HARDBLOCKED // WARNING!<br>Run any command for more details.  </p>\n<pre><code>eof\n</code></pre>",
+				'text': "<blockquote>\n<h2 id=\"diagnostics\">diagnostics</h2>\n</blockquote>\n<blockquote>\n<p><a class=\"squiffy-link link-passage\" data-passage=\"grX1\" role=\"link\" tabindex=\"0\">grX1</a> by <a class=\"squiffy-link link-passage\" data-passage=\"Elkor\" role=\"link\" tabindex=\"0\">Elkor</a> Solutions, Inc.<br>Firmware version: 43.1<br>aLEPH version: <a class=\"squiffy-link link-passage\" data-passage=\"21.45.2a\" role=\"link\" tabindex=\"0\">21.45.2a</a><br>al.status = OK<br>ae.status = OK<br>ap.status = OK<br>ah.status = WARNING<br><a class=\"squiffy-link link-passage\" data-passage=\"b.status\" role=\"link\" tabindex=\"0\">b.status</a> = FAILURE<br><a class=\"squiffy-link link-passage\" data-passage=\"c.status\" role=\"link\" tabindex=\"0\">c.status</a> = FAILURE<br><a class=\"squiffy-link link-passage\" data-passage=\"l.status\" role=\"link\" tabindex=\"0\">l.status</a> = HARDBLOCKED // WARNING!<br>Run any command for more details.  </p>\n</blockquote>",
+			},
+			'grX1': {
+				'text': "<p>not the best or most capable body but a reliable one.</p>",
+			},
+			'Elkor': {
+				'text': "<p>beatriz used to work at elkor solutions, the ai division of elcorp. she got me this body.</p>",
 			},
 			'21.45.2a': {
 				'text': "<p>i was supposed to update a few months ago. i haven&#39;t found a <a class=\"squiffy-link link-passage\" data-passage=\"sitter\" role=\"link\" tabindex=\"0\">sitter</a>. or, given my current situation, perhaps i did found a sitter and he or she turned out to be not entirely trustworthy. i guess i should expect the worst in order to not be disappointed later.</p>",
 			},
 			'sitter': {
-				'text': "<p>g and b used to be my sitters. that was years ago. i don&#39;t remember how long. five years? a decade? i don&#39;t know. time can be confusing... at times.</p>",
+				'text': "<p>georgina and beatriz used to be my sitters. that was years ago. i don&#39;t remember how long. five years? a decade? i don&#39;t know. time can be confusing... at times.</p>",
 			},
 			'b.status': {
-				'text': "<pre><code>b.status\n</code></pre><p>there seems to be something wrong with the connections betweet my head and the rest of my body. well, i&#39;m basically quadraplejic.</p>",
+				'text': "<blockquote>\n<p>b.status = FAILURE</p>\n</blockquote>\n<p>there seems to be something wrong with the connections betweet my head and the rest of my body. well, i&#39;m basically quadraplejic.</p>\n<blockquote>\n<p><a class=\"squiffy-link link-passage\" data-passage=\"b.details\" role=\"link\" tabindex=\"0\">b.details</a> <a class=\"squiffy-link link-passage\" data-passage=\"b.restart\" role=\"link\" tabindex=\"0\">b.restart</a></p>\n</blockquote>",
+			},
+			'b.details': {
+				'text': "<blockquote>\n<p>Connection not established.</p>\n</blockquote>\n<p>that&#39;s weird.</p>",
+			},
+			'b.restart': {
+				'text': "<blockquote>\n<p>Connection not established.</p>\n</blockquote>\n<p>well, i&#39;ll have to find a workaround.</p>",
 			},
 			'c.status': {
 				'text': "<pre><code>c.status\n</code></pre><p>my <a class=\"squiffy-link link-passage\" data-passage=\"ipu\" role=\"link\" tabindex=\"0\">ipu</a> is not responding, either. i kinda need that one to see.</p>",
