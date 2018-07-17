@@ -638,7 +638,7 @@ squiffy.story.sections = {
 	},
 	'xol_weir': {
 		'clear': true,
-		'text': "<pre><code>           _                _\n__  _____ | | __      _____(_)_ __\n\\ \\/ / _ \\| | \\ \\ /\\ / / _ \\ | &#39;__|\n &gt;  &lt; (_) | |  \\ V  V /  __/ | |\n/_/\\_\\___/|_|___\\_/\\_/ \\___|_|_|\n           |_____|\n</code></pre><p><a class=\"squiffy-link link-section\" data-section=\"xol_start\" role=\"link\" tabindex=\"0\">start</a></p>",
+		'text': "<pre><code>           _                _\n__  _____ | | __      _____(_)_ __\n\\ \\/ / _ \\| | \\ \\ /\\ / / _ \\ | &#39;__|\n &gt;  &lt; (_) | |  \\ V  V /  __/ | |\n/_/\\_\\___/|_|___\\_/\\_/ \\___|_|_|\n           |_____|\n</code></pre><p><a class=\"squiffy-link link-section\" data-section=\"xol_start\" role=\"link\" tabindex=\"0\">start</a></p>\n<p>NOTE: WORK IN PROGRESS</p>",
 		'passages': {
 		},
 	},
